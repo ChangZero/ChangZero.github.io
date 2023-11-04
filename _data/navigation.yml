@@ -1,0 +1,28 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+
+  - title: "About"
+    url: /about/
+
+  - title: "GitHub"
+    url: https://github.com/ChangZero/
+
+  # - title: "Projects"
+  #   url: /projects/
+
+  # - title: "Categories"
+  #   url: /categories/
+
+# sidebar navigation (categories)
+# 2022.02.15 sidebar update : simple ver.
+categories:
+  - title: "Tech"
+    url: /categories/Tech/
+  - title: "Boostcamp AI Tech 6기"
+    url: /categories/boostcamp/
+  # - title: "Categories3"
+  #   url: /categories/categories3/
+  # - title: "Categories4"
+  #   url: /categories/categories4/
