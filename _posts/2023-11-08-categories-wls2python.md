@@ -47,3 +47,6 @@ python3 --version
 ```
 sudo apt upgrade python3
 ```
+
+## 참고자료
+https://learn.microsoft.com/ko-kr/windows/python/web-frameworks
