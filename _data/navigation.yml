@@ -19,10 +19,10 @@ main:
 # 2022.02.15 sidebar update : simple ver.
 categories:
   - title: "Tech"
-    url: /categories/Tech/
+    url: /categories/tech/
   - title: "Boostcamp AI Tech 6기"
     url: /categories/boostcamp/
-  # - title: "Categories3"
-  #   url: /categories/categories3/
+  - title: "Computer Science"
+    url: /categories/cs/
   # - title: "Categories4"
   #   url: /categories/categories4/
