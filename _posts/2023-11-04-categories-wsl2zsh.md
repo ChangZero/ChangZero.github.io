@@ -7,7 +7,7 @@ categories:
 tags:
   - [wsl2, zsh, Oh My Zsh, VScode]
 
-permalink: /Tech/wsl2zsh/
+permalink: /tech/wsl2zsh/
 
 toc: true
 toc_sticky: true

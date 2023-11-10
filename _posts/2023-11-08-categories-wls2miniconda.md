@@ -3,7 +3,7 @@ title: "wsl2에서 miniconda 시작하기"
 excerpt: "wsl2, python"
 
 categories:
-  - Tech
+  - tech
 tags:
   - [wsl2, python]
 
