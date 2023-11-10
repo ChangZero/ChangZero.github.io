@@ -3,7 +3,7 @@ title: "wsl2에서 PYTHON 시작하기"
 excerpt: "wsl2, python"
 
 categories:
-  - tech
+  - Tech
 tags:
   - [wsl2, python]
 
