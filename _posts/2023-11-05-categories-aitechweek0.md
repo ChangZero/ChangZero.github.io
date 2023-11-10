@@ -7,7 +7,7 @@ categories:
 tags:
   - [git, aitech, naver, boostcamp]
 
-permalink: /boostcamp/git-basic/
+permalink: /boostcamp/week0/
 
 toc: true
 toc_sticky: true

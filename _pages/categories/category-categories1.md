@@ -1,9 +1,9 @@
 ---
 title: "Tech"
 layout: category
-permalink: /categories/Tech/
+permalink: /categories/tech/
 author_profile: true
-taxonomy: Tech
+taxonomy: tech
 sidebar:
   nav: "categories"
 ---
