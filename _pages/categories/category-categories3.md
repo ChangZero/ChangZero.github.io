@@ -3,7 +3,7 @@ title: "Computer Science"
 layout: category
 permalink: /categories/cs/
 author_profile: true
-taxonomy: Computer Science
+taxonomy: cs
 sidebar:
-  nav: "Computer Science"
+  nav: "categories"
 ---

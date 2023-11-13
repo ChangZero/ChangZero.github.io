@@ -3,7 +3,7 @@ title: "WSL2와 zsh로 개발환경 구축하기"
 excerpt: "WSL, zsh, Oh My Zsh"
 
 categories:
-  - Tech
+  - tech
 tags:
   - [wsl2, zsh, Oh My Zsh, VScode]
 
