@@ -1,6 +1,6 @@
 ---
 title: "[AI Tech] 네이버 부스트 캠프 3주차 회고"
-excerpt: "AI Tech Week 2"
+excerpt: "AI Tech Week 3"
 
 categories:
   - boostcamp
@@ -12,11 +12,11 @@ permalink: /boostcamp/week3/
 toc: true
 toc_sticky: true
 
-date: 2023-11-24
+date: 2023-11-20
 last_modified_at: 2023-11-24
 ---
 
-## 2주차 강의 리마인드
+## 3주차 강의 리마인드
 이번 주차는 DL basic과 데이터 시각화에 대해 배웠다. <br>
 뉴럴 네트워크와 MLP에 대한 간단한 기초 이론과 최적화 방법을 배웠다.
 일반화하기위한 방법론들과 경사하강법 방법들에 대해 배우고 직접 실습해보는 시간을 가졌다.
