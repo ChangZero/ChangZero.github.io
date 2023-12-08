@@ -7,7 +7,7 @@ categories:
 tags:
   - [aitech, naver, boostcamp]
 
-permalink: /boostcamp/week4/
+permalink: /boostcamp/week5/
 
 toc: true
 toc_sticky: true
