@@ -1,5 +1,5 @@
 ---
-title: "WandB를 활용해서 하이퍼 파라미터 최적화를 해보자"
+title: "WandB를 활용해서 실험관리를 해보자"
 excerpt: "프로젝트에 WandB를 적용해보자!"
 
 categories:
