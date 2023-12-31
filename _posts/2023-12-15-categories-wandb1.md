@@ -5,15 +5,15 @@ excerpt: "프로젝트에 WandB를 적용해보자!"
 categories:
   - boostcamp
 tags:
-  - [boostcamp, deeplearning, wandb]
+  - [boostcamp, ai, wandb]
 
 permalink: /boostcamp/wandb1/
 
 toc: true
 toc_sticky: true
 
-date: 2023-12-30
-last_modified_at: 2023-12-30
+date: 2023-12-15
+last_modified_at: 2023-12-15
 ---
 
 # WandB란?
