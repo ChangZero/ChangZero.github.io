@@ -1,5 +1,5 @@
 ---
-title: "[AI Tech] 네이버 부스트 캠프 주차 회고"
+title: "[AI Tech] 네이버 부스트 캠프 9주차 회고"
 excerpt: "AI Tech Week 9"
 
 categories:
