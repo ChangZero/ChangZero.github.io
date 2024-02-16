@@ -12,8 +12,8 @@ permalink: /boostcamp/week15/
 toc: true
 toc_sticky: true
 
-date: 2024-02-16
-last_modified_at: 2024-02-17
+date: 2024-02-15
+last_modified_at: 2024-02-15
 ---
 
 ## 15주차 리마인드
