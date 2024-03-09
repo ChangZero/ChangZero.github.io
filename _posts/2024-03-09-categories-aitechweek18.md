@@ -12,8 +12,8 @@ permalink: /boostcamp/week18/
 toc: true
 toc_sticky: true
 
-date: 2024-03-10
-last_modified_at: 2024-03-10
+date: 2024-03-09
+last_modified_at: 2024-03-09
 ---
 
 ## 18주차 리마인드
