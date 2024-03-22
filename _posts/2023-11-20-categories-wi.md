@@ -1,5 +1,5 @@
 ---
-title: "가중치 초기화 왜 해야하는거야?"
+title: "[AI Tech] 가중치 초기화 왜 해야하는거야?"
 excerpt: "가중치 초기화에 대해 공부해보자"
 
 categories:

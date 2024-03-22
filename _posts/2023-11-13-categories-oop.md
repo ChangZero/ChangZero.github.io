@@ -1,5 +1,5 @@
 ---
-title: "객체 지향 프로그래밍이란"
+title: "[AI Tech] 객체 지향 프로그래밍이란"
 excerpt: "객체 지향 프로그래밍의 의미와 특성에 대해 공부해보자"
 
 categories:
