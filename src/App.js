@@ -6,13 +6,15 @@ import About from './pages/About';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/post/:id" element={<Post />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
-    </Router>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/post/:id" element={<Post />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Router>
+    </BrowserRouter>
   );
 }
 
