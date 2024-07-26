@@ -26,24 +26,11 @@ function Header(props) {
 						<i className="fas fa-user"></i>
 					</Link>
 				</li>
-				<li className={props.page === "projects" ? "active" : ""}>
-					<Link to="/projects">
-						<span>Projects</span>
-						<i className="fas fa-tasks"></i>
-					</Link>
-				</li>
 				<li className={props.page === "blog" ? "active" : ""}>
-					<Link to="/blog">
-						<span>Blog</span>
+					<Link to="/post">
+						<span>Post</span>
 						<i className="fas fa-book"></i>
 					</Link>
-				</li>
-				<li>
-					{/* eslint-disable-next-line react/jsx-no-target-blank */}
-					<a href="https://github.com/hjban-dev" target="_blank">
-						<span>Github</span>
-						<i className="fab fa-github"></i>
-					</a>
 				</li>
 			</ul>
 		</StyledHeader>
