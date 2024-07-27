@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Header from '../organisms/Header';
 import Footer from '../organisms/Footer'
 
-import styled from 'styled-components';
-import Preloader from '../molecules/Preloader';
 
 export class Home extends Component {
 	render() {
