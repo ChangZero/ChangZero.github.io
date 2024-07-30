@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../organisms/Header';
-import Footer from '../organisms/Footer'
+import Footer from '../organisms/Footer';
+import HomeWarp from '../organisms/HomeWrap';
 
 
 export class Home extends Component {
@@ -8,7 +9,7 @@ export class Home extends Component {
     return (
       <div>
         <Header page="home" />
-        내용 추가 예정
+        <HomeWarp />
         <Footer />
       </div>
 		);
