@@ -1,0 +1,18 @@
+/* 기본적으로 페이지 전체를 감싸는 컨테이너 */
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* 화면 높이를 최소 100%로 설정 */
+}
+
+/* 콘텐츠 부분은 flex-grow로 공간을 차지하도록 설정 */
+.content {
+  flex: 1;
+}
+
+/* Footer는 기본적으로 하단에 위치 */
+footer {
+  background: #111;
+  padding: 1rem;
+  text-align: center;
+}
