@@ -5,13 +5,16 @@ import Footer from "../organisms/Footer";
 function PageWrap(props) {
 	const { children } = props;
 
-	return (
-		<div>
+    return (
+        <  div className="page-wrap">
 			<Header page={props.page} />
-            <>{children}</>
-            <Footer />
+			<div className="content">
+				{children}
+			</div>
+			<Footer />
 		</div>
 	);
 }
 
 export default PageWrap;
+
