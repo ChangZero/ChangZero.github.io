@@ -32,6 +32,12 @@ function Header(props) {
 						<i className="fas fa-book"></i>
 					</Link>
 				</li>
+				<li className={props.page === "contact" ? "active" : ""}>
+					<Link to="/contact">
+						<span>Contact</span>
+						<i className="fas fa-address-book"></i>
+					</Link>
+				</li>
 			</ul>
 		</StyledHeader>
 	);
