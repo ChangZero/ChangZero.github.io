@@ -1,34 +1,33 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import React, { Component } from 'react';
+import PageWrap from "../templates/PageWrap";
+import PageHeader from "../molecules/PageHeader";
+import PostWrap from '../organisms/PostWrap';
 
-const Post = () => {
-  const { id } = useParams();
-  const [content, setContent] = useState('');
 
-  useEffect(() => {
-    const fetchMarkdown = async () => {
-      try {
-        const response = await fetch(`/posts/${id}.md`);
-        const text = await response.text();
-        setContent(text);
-      } catch (error) {
-        console.error('Error fetching markdown:', error);
-      }
-    };
-
-    fetchMarkdown();
-  }, [id]);
-
-  return (
-    <div>
-      <ReactMarkdown remarkPlugins={[remarkGfm]}>
-        {content}
-      </ReactMarkdown>
-    </div>
-  );
-};
+export class Post extends Component {
+	render() {
+        return (
+        <PageWrap page="Posts">
+				<main>
+					<PageHeader titleBg="Posts">
+						My <span className="point">POSTs</span>
+					</PageHeader>
+					<section>
+            <PostWrap />
+					</section>
+				</main>
+			</PageWrap>
+    //   <PageWrap page="contact"></PageWrap>>
+    //     <Header page="contact" />
+    //     <StyledContent>
+    //         <ContactWrap />
+    //     </StyledContent>
+    //     <StyledFooter>
+    //       <Footer />
+    //     </StyledFooter>
+    //   </StyledPage>
+		);
+	}
+}
 
 export default Post;
-

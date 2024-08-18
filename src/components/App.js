@@ -4,15 +4,17 @@ import Home from './pages/Home';
 import Post from './pages/Post';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import PostPage from './organisms/PostPage';
 
 function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/post/:id" element={<Post />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/post" element={<Post />} />
+        <Route path="/posts/:postId" element={<PostPage />} />
       </Routes>
     </BrowserRouter>
   );
